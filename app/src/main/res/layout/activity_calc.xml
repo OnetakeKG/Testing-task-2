@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:alignmentMode="alignBounds"
+    android:columnCount="3"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="true">
+
+    <!-- + - * / = C -->
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/calc_display_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/badd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/bplus_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/bmul_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bequals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/bequals_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/bminus_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bdiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/bdiv_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/bclear_label" />
+
+    <!-- 1-9 0 . -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b1_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b2_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b3_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b4_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b5_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b6_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b7_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b8_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/b9_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/b0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="@string/b0_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bdot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="@string/bdot_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="3"
+        android:text="@string/btheme_label" />
+
+</android.widget.GridLayout>
